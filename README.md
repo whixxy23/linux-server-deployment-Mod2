@@ -99,9 +99,9 @@ ssh deploy@172.31.30.45            # confirm key-only login works
 ssh -o PreferredAuthentications=password deploy@172.31.30.45  # should FAIL
 ```
 ## Results
-markdown ![Host firewall (ufw) allowing OpenSSH and port 80 only](screenshots/ufw-status.png)
-markdown ![Nginx service active and enabled on boot](screenshots/nginx-status.png)
-markdown ![Browser test showing deployed nginx page](screenshots/browser-test.png)
+markdown ![Host firewall (ufw) allowing OpenSSH and port 80 only](ufw-status.png)
+markdown ![Nginx service active and enabled on boot](nginx-status.png)
+markdown ![Browser test showing deployed nginx page](browser-test.png)
 
 ---
 
