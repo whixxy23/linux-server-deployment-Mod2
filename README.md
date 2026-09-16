@@ -101,7 +101,7 @@ ssh -o PreferredAuthentications=password deploy@172.31.30.45  # should FAIL
 ## Results
 markdown ![Host firewall (ufw) allowing OpenSSH and port 80 only](ufw-status.png)
 markdown ![Nginx service active and enabled on boot](nginx-status.png)
-markdown ![Browser test showing deployed nginx page](browser-test.png)
+markdown ![Browser test showing deployed nginx page](browse-test.png)
 
 ---
 
